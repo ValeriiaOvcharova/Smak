@@ -1,0 +1,27 @@
+.about-card {
+  width: 50%;
+  padding-left: 100px;
+  position: relative;
+  margin-top: 60px;
+}
+.about-card-logo {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: var(--global-link-hover-color);
+  position: absolute;
+  left: 12px;
+  border-radius: 50%;
+  top: 8px;
+}
+.about-card-logo span {
+  color: #fff;
+  font-size: 36px;
+  position: absolute;
+  left: 18px;
+  top: 16px;
+}
+.about-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}

@@ -1,0 +1,7 @@
+.layout-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery .container {
+  max-width: 1900px;
+}

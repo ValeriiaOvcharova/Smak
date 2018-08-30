@@ -1,0 +1,32 @@
+.hero-background {
+  background-color: var(--global-secondary-background);
+  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
+}
+.hero-foreground {
+  background-color: var(--global-primary-background);
+  align-self: center;
+  width: 100%;
+  margin-top: 8em;
+}
+.foreground-info {
+  display: flex;
+  min-height: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.foreground-info h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.foreground-button {
+  align-self: flex-end;
+}
+.foreground-info .button {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+}

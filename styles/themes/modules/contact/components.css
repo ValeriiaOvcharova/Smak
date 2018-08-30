@@ -1,0 +1,25 @@
+.contact {
+    padding: 60px 0;
+}
+.layout-contact .heading {
+    margin: 0;
+}
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+    margin-top: 60px;
+}
+.contact-card div span {
+    font-size: 30px;
+    color: var(--global-link-hover-color);
+}
+.contact-card:hover span {
+    color: #000000;
+}
+.contact-card h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 14px 0;
+}

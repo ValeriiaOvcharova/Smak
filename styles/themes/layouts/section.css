@@ -1,0 +1,31 @@
+/*logo-navbar*/
+.layout-logo-navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100px;
+}
+/*hero*/
+.layout-hero {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.layout-hero-foreground {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/*footer*/
+.footer {
+  background-color: var(--global-muted-background);
+}
+.footer-layout {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}

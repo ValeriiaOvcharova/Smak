@@ -1,0 +1,50 @@
+.team {
+    background-color: #fbfbfb;
+    padding: 40px 0 60px;
+    margin-top: 60px;
+}
+.team .heading {
+    margin: 0;
+}
+.team-cards .grid-item {
+    height: 350px;
+    position: relative;
+    width: calc(100% / 4 - 16px);
+    overflow: hidden;
+    margin: 0 8px;
+    box-shadow: 0px 1px 1px 0px grey;
+}
+.team-cards .card-title {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 290px;
+    text-align: center;
+}
+.team-cards .card-title p:first-child {
+    color: var(--global-link-hover-color);
+    text-transform: uppercase;
+}
+.team-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255, 0.4);
+}
+.hover-items {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+}
+.hover-items a {
+    padding: 10px;
+    font-size: 30px;
+}
+.grid-item:hover .team-hover {
+    display: block;
+}

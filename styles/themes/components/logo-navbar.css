@@ -1,0 +1,27 @@
+.logo-navbar {
+  background-color: var(--global-primary-background);
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-burger {
+  display: none;
+}
+.nav-list li {
+  margin-left: 24px;
+  text-transform: uppercase;
+}
+.nav-list li .is-active {
+  color: var(--global-link-hover-color);
+  pointer-events: none;
+}
+.nav-list li:not(:last-child)::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  background-color: var(--global-link-hover-color);
+  vertical-align: middle;
+  margin-left: 24px;
+}

@@ -1,0 +1,27 @@
+.skills {
+    background-color: #131a1d;
+}
+.layout-skills .heading * {
+    color: #fff;
+    padding-top: 10px;
+}
+.skills-circles {
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle-item {
+    width: calc(100% / 4);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+.circle-wrp {
+    font-size: 35px;
+    color: var(--global-link-hover-color);
+}
+.circle-item .circle-title h4 {
+    text-transform: uppercase;
+    color: var(--global-link-hover-color);
+}
+

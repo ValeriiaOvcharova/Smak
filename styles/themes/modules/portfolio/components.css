@@ -1,0 +1,10 @@
+.layout-portfolio .foreground-button {
+  align-self: center;
+  margin-top: 24px;
+}
+.layout-portfolio .heading p {
+  margin-top: 12px;
+}
+.layout-portfolio > a {
+  margin: 60px 0;
+}

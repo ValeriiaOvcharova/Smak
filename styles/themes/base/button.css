@@ -1,0 +1,40 @@
+:root {
+    --button-color: #fff;
+    --button-background: #ffe600;
+    --button-font-size: var(--global-font-size);
+    --button-font-weight: bold;
+    --button-padding: 16px 42px;
+    --button-height: 50px;
+
+    --button-color-hover: #000000;
+    --button-background-hover: #ffe600;
+
+    --button-color-focus: #000000;
+    --button-background-focus: #ffe600;
+
+    --button-color-active: #000000;
+    --button-background-active: #ffe600;
+  }
+
+  .button:hover {
+    text-decoration: none;
+    background: var(--button-background-hover);
+    color: var(--button-color-hover);
+  }
+
+  .button:focus {
+    outline: none;
+    background: var(--button-background-focus);
+    color: var(--button-color-focus);
+  }
+
+  .button:active,
+  .button.is-active {
+    background: var(--button-background-active);
+    color: var(--button-color-active);
+  }
+
+  .button:disabled {
+    pointer-events: none;
+    opacity: 0.45;
+  }

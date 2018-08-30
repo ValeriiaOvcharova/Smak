@@ -1,0 +1,24 @@
+.footer-layout p {
+    color:#fff;
+  }
+.footer-layout p span {
+    color: var(--global-link-hover-color);
+  }
+.footer-layout .social {
+    margin-top: 20px;
+}
+.footer-layout .social span {
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+}
+.footer-layout .social span:hover {
+    color: var(--global-link-hover-color);
+}
+.footer-layout .icon-arrows {
+    transform: rotate(180deg);
+}
+.footer-layout .foreground-button {
+    align-self: center;
+    margin-top: 30px;
+}

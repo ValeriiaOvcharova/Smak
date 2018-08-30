@@ -1,0 +1,14 @@
+.preview {
+  background-color: #131a1d;
+}
+.preview-item {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.preview-item .heading p {
+  color: #fff;
+  text-transform: capitalize;
+  max-width: 430px;
+}

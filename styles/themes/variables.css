@@ -1,0 +1,21 @@
+:root {
+    --global-font-family:                            'Oswald', sans-serif, Arial, sans-serif;
+
+    --global-muted-color:                            #c9c9c9;
+
+    --global-link-color:                             #fff;
+    --global-link-hover-color:                       #ffe600;
+
+    --global-inverse-color:                          #fff;
+
+    --global-background:                             #fff;
+
+    --global-primary-background:                     #122a2f;
+    --global-secondary-background:                   #11343a;
+    --global-muted-background:                       #000000;
+
+    --global-margin:                                 0px;
+
+    --global-border-width:                           1px;
+    --global-border:                                 #ffe600;
+}

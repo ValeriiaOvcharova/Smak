@@ -1,0 +1,28 @@
+.list-works {
+  justify-content: center;
+  margin-top: 60px;
+}
+.list-works li a {
+  color: #000000;
+}
+.list-works li a:hover {
+  color: var(--global-link-hover-color);
+}
+.works-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  align-items: center;
+}
+.works-wrp > div {
+  width: 50%;
+}
+.works-img {
+  height: 300px;
+}
+.works-intro {
+  padding: 50px;
+}
+.works-intro * {
+  margin-top: 24px;
+}
